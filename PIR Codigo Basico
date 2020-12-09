@@ -1,10 +1,11 @@
-#define Saida           2
+#define Saida  2
 #define Sinal  A0 
 
 void setup(){
 pinMode(Saida,OUTPUT);
 digitalWrite(Saida,LOW);
 }
+
 void loop(){
 if (analogRead(Sinal) >= 550){   
   digitalWrite(Saida,HIGH);
