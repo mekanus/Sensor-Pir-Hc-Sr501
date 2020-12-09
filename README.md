@@ -14,7 +14,7 @@ Conteúdo referente ao Sensor Pir Presença Movimento Hc-Sr501 Mekanus Robótica
 
 # Conteudo:
 
-### Projeto de acionamento de um led utilziando o sensor de Movimento Hc-Sr501
+### 1 - Projeto de acionamento de um led utilziando o sensor de Movimento Hc-Sr501
 
 Esquema de montagem: https://github.com/mekanus/Sensor-Pir-Hc-Sr501/blob/main/PIR.jpg
 
