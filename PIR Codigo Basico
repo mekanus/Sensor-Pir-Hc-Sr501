@@ -1,0 +1,19 @@
+#define SinalDigital    2
+#define Saida           8
+#define SinalAnalogico  A0 
+
+void setup(){
+pinMode(SinalDigital,INPUT);
+pinMode(Saida,OUTPUT);
+digitalWrite(Saida,LOW);
+}
+void loop(){
+//Se usar Pino A0, descomente a linha 14 e comente as linhas 1, 7, 8 e 16
+//Se usar Pino D2, descomente a linha 16 e comente as linhas 3, 12
+//if (analogRead(SinalAnalogico) >= 550){   
+if (digitalRead(SinalDigital) == HIGH){
+  digitalWrite(Saida,HIGH);
+  }else{
+  digitalWrite(Saida,LOW);
+  }
+}
